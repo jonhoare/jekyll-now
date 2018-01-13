@@ -35,7 +35,7 @@ You have 2 options to fix up your local branch before you create a Pull Request 
 
 ### Option 1: Interactive Rebase
 
-This is quite an advanced command, but quite easy to understand. You can find out about a rebase at my other [blog post]("/Git-Rebase-Vs-Merge").
+This is quite an advanced command, but quite easy to understand. You can find out about a rebase at my other [blog post](https://www.devopsdude.uk/Git-Rebase-Vs-Merge).
 
 An interactive rebase is exactly the same as a regular rebase, except that you can tell git what to do for each commit.
 
