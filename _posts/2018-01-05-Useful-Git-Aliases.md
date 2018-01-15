@@ -205,6 +205,16 @@ dbf = branch -D
 drb = push origin --delete
 ```
 
+### Delete all local branches that are merged
+
+****
+**Synopsis:** Delete all local branches that have been merged into the *main* branch.
+
+**Config**
+```git
+cleanup = "!git branch --merged | grep -v '\\*\\|master\\|develop' | xargs -n 1 git branch -d"
+```
+
 ### Reset HEAD and Delete Changes
 ****
 **Synopsis:** Shorthand to **R**eset **H**EAD **H**ard as with the `--hard` option which will reset your local branch back to the HEAD and remove all changes.
