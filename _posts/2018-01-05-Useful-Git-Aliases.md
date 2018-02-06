@@ -245,7 +245,7 @@ lb = branch -vl
 
 **Config:** 
 ```git
-lb = branch -vla
+lba = branch -vla
 ```
 
 ### Force Clean Branch
