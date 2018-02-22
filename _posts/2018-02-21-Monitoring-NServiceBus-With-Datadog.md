@@ -210,8 +210,8 @@ Head over to the Datadog Web UI and check the `Metrics` -> `Summary`, search for
 Create a new dashboard, or open an existing one, add a `TopList` and select to display the `particular.sc.instance.throughput`, restrict the results to certain tags if required, and average the results by `instance`. This will display the throughput metric that we have collected, breaking it down by the instance name.
 
 Eg If you are running `myservice` on hosts `myhost1` and `myhost2` you should see metrics for
-* `myservice@myhost1.local`
-* `myservice@myhost2.local`
+* `myservice@myhost1`
+* `myservice@myhost2`
 
 ***Please remember that Particular DO NOT endorse accessing the ServiceControl Monitoring API like this and if you do so you do so at your own risk and acknowledge the risks that the API is subject to change.***
 
